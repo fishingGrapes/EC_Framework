@@ -11,7 +11,7 @@ An implementation of Entity-Component architecture inspired by Unity3D and Unrea
 #### Usage
 Include the header `GameObject.h` wherever ypu need to interact with GameObjects and Components in your project. Include the header `ComponentRegistry.h` where you have the game loop, so as to call component callbacks. Following is an example of how to use the framework:
 
-```
+```c++
 #include <iostream>
 #include <Windows.h>
 #include <WinUser.h>
@@ -90,7 +90,7 @@ int main( )
 ```
 And, here is how to setup a component:
 
-```
+```c++
 #include <iostream>
 #include "Component.h"
 
