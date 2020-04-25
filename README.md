@@ -15,7 +15,6 @@ Include the header `GameObject.h` wherever ypu need to interact with GameObjects
 #include <iostream>
 #include <Windows.h>
 #include <WinUser.h>
-#include <thread>
 
 //Include this wherever you need to interact with GameObjects and Components
 #include "GameObject.h"
